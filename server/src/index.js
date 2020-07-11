@@ -21,5 +21,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("[JONGMAN_LOG] Listening on port 3000", new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[1].slice(0, -1));
+  console.log("Listening on port 3000", new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[1].slice(0, -1));
 });
